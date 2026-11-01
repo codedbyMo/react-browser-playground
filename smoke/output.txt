@@ -1,0 +1,19 @@
+browser() smoke test: react-dom 19.3.1, real Chromium
+chromium executable: /home/hatch/workspace/goals/tech-blogging-project-24-posts/files/playgrounds/react-browser-25/smoke/browsers/chrome-headless-shell/linux-156.0.8078.80/chrome-headless-shell-linux64/chrome-headless-shell
+server render: bailouts=2 causes=["SavedDraft reads the draft from localStorage.","ViewportBadge reads window.innerWidth."] errors=0 shellError=null
+serving at http://127.0.0.1:37425/
+PASS  initial HTML has the saved-draft fallback
+PASS  initial HTML has the viewport fallback
+PASS  initial HTML has the client-rendering template marker
+PASS  initial HTML has no browser-only draft content
+PASS  initial HTML has no rendered viewport width
+browser version: HeadlessChrome/156.0.8078.80
+PASS  hydration completed: browser-only content appeared
+PASS  seeded draft text rendered after hydration
+PASS  viewport width rendered after hydration
+PASS  fallbacks replaced after hydration
+console[info] %cDownload the React DevTools for a better development experience: https://react.dev/link/react-devtools font-weight:bold
+PASS  no console errors (0 found)
+PASS  no hydration mismatch warnings (0 found)
+PASS  no page errors (0 found)
+RESULT: PASS (12/12 checks)
